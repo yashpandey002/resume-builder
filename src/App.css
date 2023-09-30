@@ -1,0 +1,66 @@
+/*******************/
+/* Root setting */
+/*******************/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    /* font-family: "Inter", sans-serif; */
+    font-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+input,
+button {
+    border: none;
+}
+
+input {
+    font-family: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*******************/
+/* Utility classes */
+/*******************/
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.gap-sm {
+    gap: 1rem;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
