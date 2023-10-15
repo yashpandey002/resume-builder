@@ -1,0 +1,14 @@
+.mainWrapper {
+    padding: 5.6rem 3.2rem;
+}
+
+.mainHeading {
+    text-align: center;
+    font-size: 7.2rem;
+    color: var(--black);
+    margin-bottom: 6.4rem;
+}
+
+.mainContent__box {
+    gap: 3.2rem;
+}

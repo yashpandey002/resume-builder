@@ -8,8 +8,9 @@ html {
 }
 
 body {
-    /* font-family: "Inter", sans-serif; */
+    font-family: "Inter", sans-serif;
     font-weight: 700;
+    background-color: #e5f6ff;
 }
 
 *,
@@ -22,6 +23,10 @@ body {
 
 *:focus {
     outline: none;
+}
+
+:root {
+    --black: #383838;
 }
 
 input,
@@ -39,28 +44,4 @@ ul {
 
 a {
     text-decoration: none;
-}
-
-/*******************/
-/* Utility classes */
-/*******************/
-
-.flex {
-    display: flex;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.justify-space-between {
-    justify-content: space-between;
-}
-
-.gap-sm {
-    gap: 1rem;
-}
-
-.flex-grow-1 {
-    flex-grow: 1;
 }
