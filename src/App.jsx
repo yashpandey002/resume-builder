@@ -2,6 +2,7 @@ import "./styles/root.css";
 import "./styles/utility.css";
 import "./styles/App.css";
 import PersonalInfo from "./components/PersonalInfo";
+import ImpLinks from "./components/ImpLinks";
 
 function App() {
     return (
@@ -11,8 +12,9 @@ function App() {
                     <h1 className="mainHeading">Build Your Tech Resume</h1>
                 </div>
                 <div className="mainContent__box flex">
-                    <div className="mainContent__editorBox">
+                    <div className="mainContent__editorBox flex flex-column flex-gap-lg">
                         <PersonalInfo />
+                        <ImpLinks />
                     </div>
                     <div className="mainContent__resultBox"></div>
                 </div>
