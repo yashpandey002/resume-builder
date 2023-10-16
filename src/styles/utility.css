@@ -6,6 +6,10 @@
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .align-center {
     align-items: center;
 }
@@ -14,8 +18,16 @@
     justify-content: space-between;
 }
 
-.gap-sm {
+.flex-gap-sm {
     gap: 1rem;
+}
+
+.flex-gap-md {
+    gap: 2rem;
+}
+
+.flex-gap-lg {
+    gap: 3.2rem;
 }
 
 .flex-grow-1 {
