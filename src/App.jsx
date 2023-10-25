@@ -3,6 +3,7 @@ import "./styles/utility.css";
 import "./styles/App.css";
 import PersonalInfo from "./components/PersonalInfo";
 import ImpLinks from "./components/ImpLinks";
+import Education from "./components/Education";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <div className="mainContent__editorBox flex flex-column flex-gap-lg">
                         <PersonalInfo />
                         <ImpLinks />
+                        <Education />
                     </div>
                     <div className="mainContent__resultBox"></div>
                 </div>
