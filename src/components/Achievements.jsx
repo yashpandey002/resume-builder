@@ -7,22 +7,22 @@ import AddPrimaryBtn from "./AddPrimaryBtn";
 
 export default function Achievements() {
     return (
-        <div className="skillsWrapper">
+        <div className="achievementsWrapper">
             <Layout>
-                <div className="workExperience__header">
+                <div className="achievements__header">
                     <Header
-                        contentIconSrc={".././work-experience-icon.svg"}
-                        heading={"Work Experience"}
+                        contentIconSrc={".././achievements-icon.svg"}
+                        heading={"Achievements"}
                         downIconSrc={".././down-icon.svg"}
                     />
                 </div>
-                <div className="workExperience__contentBox flex flex-column flex-gap-md">
+                <div className="achievements__contentBox flex flex-column flex-gap-md">
                     <TextArea
-                        label={"Work Experience"}
+                        label={"Achievement"}
                         textLimit={"1/5"}
-                        id={"workExperienceInput"}
+                        id={"achievementInput1"}
                     />
-                    <AddPrimaryBtn text={"Add Work experience"} />
+                    <AddPrimaryBtn text={"Add achievement"} />
                 </div>
             </Layout>
         </div>
