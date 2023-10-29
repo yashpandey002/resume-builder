@@ -3,6 +3,7 @@ import "../styles/utility.css";
 import Layout from "./Layout";
 import Header from "./Header";
 import TextArea from "./TextArea";
+import AddPrimaryBtn from "./AddPrimaryBtn";
 
 export default function WorkExperience() {
     return (
@@ -21,6 +22,7 @@ export default function WorkExperience() {
                         textLimit={"1/5"}
                         id={"workExperienceInput"}
                     />
+                    <AddPrimaryBtn text={"Add Work experience"} />
                 </div>
             </Layout>
         </div>
