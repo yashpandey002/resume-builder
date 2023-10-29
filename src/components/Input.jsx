@@ -4,7 +4,7 @@ import "../styles/Input.css";
 
 export default function Input({ label, type, id }) {
     return (
-        <div>
+        <div className="inputWrapper">
             <label htmlFor={id} className="inputLabel">
                 {label}
             </label>

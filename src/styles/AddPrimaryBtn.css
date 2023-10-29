@@ -1,0 +1,20 @@
+.addPrimaryBtn {
+    width: 100%;
+    gap: 5px;
+    padding: 1.6rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    background-color: #8f8f8f;
+    color: var(--white);
+    border-radius: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    margin-top: 4.8rem;
+}
+
+.addPrimaryBtn:hover,
+.addPrimaryBtn:active {
+    background-color: #707070;
+}

@@ -4,6 +4,9 @@ import "./styles/App.css";
 import PersonalInfo from "./components/PersonalInfo";
 import ImpLinks from "./components/ImpLinks";
 import Education from "./components/Education";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import WorkExperience from "./components/WorkExperience";
 
 function App() {
     return (
@@ -17,6 +20,9 @@ function App() {
                         <PersonalInfo />
                         <ImpLinks />
                         <Education />
+                        <Projects />
+                        <Skills />
+                        <WorkExperience />
                     </div>
                     <div className="mainContent__resultBox"></div>
                 </div>

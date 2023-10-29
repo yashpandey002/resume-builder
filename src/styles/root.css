@@ -27,6 +27,7 @@ body {
 
 :root {
     --black: #383838;
+    --white: #fff;
 }
 
 input,
@@ -34,8 +35,12 @@ button {
     border: none;
 }
 
-input {
+input,
+select,
+textarea {
+    border: 0;
     font-family: inherit;
+    color: var(--black);
 }
 
 ul {

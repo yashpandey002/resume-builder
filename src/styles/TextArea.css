@@ -1,0 +1,30 @@
+.textAreaWrapper {
+    width: 100%;
+}
+
+.textAreaHeader {
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+
+.textAreaLabel {
+    font-size: 1.8rem;
+    color: var(--black);
+}
+
+.textAreaLimit {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.textAreaInput {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 1.6rem;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+}

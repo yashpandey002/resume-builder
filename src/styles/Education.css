@@ -1,0 +1,18 @@
+.cgpaInput {
+    width: 150px;
+}
+
+.cgpaYearsBox {
+    flex-grow: 1;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+
+    align-items: center;
+}
+
+.cgpaYearSelect {
+    font-size: 1.8rem;
+    background-color: #f1f1f1;
+    margin-left: 1.6rem;
+    padding-right: 4rem;
+}
