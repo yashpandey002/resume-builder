@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 import Achievements from "./components/Achievements";
+import VolunteerExperience from "./components/VolunteerExperience";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
                         <Skills />
                         <WorkExperience />
                         <Achievements />
+                        <VolunteerExperience />
                     </div>
                     <div className="mainContent__resultBox"></div>
                 </div>
