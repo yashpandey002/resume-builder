@@ -10,7 +10,7 @@ export default function WorkExperience() {
             <Layout>
                 <div className="workExperience__header">
                     <Header
-                        contentIconSrc={".././skills-icon.svg"}
+                        contentIconSrc={".././work-experience-icon.svg"}
                         heading={"Work Experience"}
                         downIconSrc={".././down-icon.svg"}
                     />
