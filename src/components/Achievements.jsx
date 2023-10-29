@@ -5,9 +5,9 @@ import Header from "./Header";
 import TextArea from "./TextArea";
 import AddPrimaryBtn from "./AddPrimaryBtn";
 
-export default function WorkExperience() {
+export default function Achievements() {
     return (
-        <div className="workExperienceWrapper">
+        <div className="skillsWrapper">
             <Layout>
                 <div className="workExperience__header">
                     <Header

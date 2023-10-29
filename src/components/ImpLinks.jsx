@@ -6,19 +6,21 @@ import Input from "./Input";
 
 export default function ImpLinks() {
     return (
-        <Layout>
-            <div className="impLinks__header">
-                <Header
-                    contentIconSrc={".././imp-links-icon.svg"}
-                    heading={"Important links"}
-                    downIconSrc={".././down-icon.svg"}
-                />
-            </div>
-            <div className="impLinks__contentBox flex flex-column flex-gap-md">
-                <Input label={"Github"} type={"text"} id={"github"} />
-                <Input label={"Linkedin"} type={"text"} id={"linkedin"} />
-                <Input label={"Twitter"} type={"text"} id={"twitter"} />
-            </div>
-        </Layout>
+        <div className="impLinksWrapper">
+            <Layout>
+                <div className="impLinks__header">
+                    <Header
+                        contentIconSrc={".././imp-links-icon.svg"}
+                        heading={"Important links"}
+                        downIconSrc={".././down-icon.svg"}
+                    />
+                </div>
+                <div className="impLinks__contentBox flex flex-column flex-gap-md">
+                    <Input label={"Github"} type={"text"} id={"github"} />
+                    <Input label={"Linkedin"} type={"text"} id={"linkedin"} />
+                    <Input label={"Twitter"} type={"text"} id={"twitter"} />
+                </div>
+            </Layout>
+        </div>
     );
 }
