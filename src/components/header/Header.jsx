@@ -1,6 +1,6 @@
-import "../styles/root.css";
-import "../styles/utility.css";
-import "../styles/Header.css";
+import "../../styles/root.css";
+import "../../styles/utility.css";
+import "./Header.css";
 
 export default function Header({ contentIconSrc, heading, downIconSrc }) {
     return (

@@ -1,6 +1,6 @@
-import "../styles/root.css";
-import "../styles/utility.css";
-import "../styles/Input.css";
+import "../../styles/root.css";
+import "../../styles/utility.css";
+import "./Input.css";
 
 export default function Input({ label, type, id }) {
     return (

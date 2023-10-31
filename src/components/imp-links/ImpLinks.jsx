@@ -1,8 +1,8 @@
-import "../styles/root.css";
-import "../styles/utility.css";
-import Layout from "./Layout";
-import Header from "./Header";
-import Input from "./Input";
+import "../../styles/root.css";
+import "../../styles/utility.css";
+import Layout from "../layout/Layout";
+import Header from "../header/Header";
+import Input from "../input/Input";
 
 export default function ImpLinks() {
     return (

@@ -1,14 +1,14 @@
 import "./styles/root.css";
 import "./styles/utility.css";
 import "./styles/App.css";
-import PersonalInfo from "./components/PersonalInfo";
-import ImpLinks from "./components/ImpLinks";
-import Education from "./components/Education";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import WorkExperience from "./components/WorkExperience";
-import Achievements from "./components/Achievements";
-import VolunteerExperience from "./components/VolunteerExperience";
+import PersonalInfo from "./components/personal-info/PersonalInfo";
+import ImpLinks from "./components/imp-links/ImpLinks";
+import Education from "./components/education/Education";
+import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
+import WorkExperience from "./components/work-experience/WorkExperience";
+import Achievements from "./components/achievements/Achievements";
+import VolunteerExperience from "./components/volunteer-experience/VolunteerExperience";
 
 function App() {
     return (

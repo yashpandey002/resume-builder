@@ -1,11 +1,11 @@
-import "../styles/root.css";
-import "../styles/utility.css";
-import Layout from "./Layout";
-import Header from "./Header";
-import Input from "./Input";
-import TextArea from "./TextArea";
-import AddSecondaryBtn from "./AddSecondaryBtn";
-import AddPrimaryBtn from "./AddPrimaryBtn";
+import "../../styles/root.css";
+import "../../styles/utility.css";
+import Layout from "../layout/Layout";
+import Header from "../header/Header";
+import Input from "../input/Input";
+import TextArea from "../textarea/TextArea";
+import AddSecondaryBtn from "../buttons/AddSecondaryBtn";
+import AddPrimaryBtn from "../buttons/AddPrimaryBtn";
 
 export default function Projects() {
     return (

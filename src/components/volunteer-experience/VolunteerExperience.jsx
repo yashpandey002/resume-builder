@@ -1,9 +1,9 @@
-import "../styles/root.css";
-import "../styles/utility.css";
-import Layout from "./Layout";
-import Header from "./Header";
-import TextArea from "./TextArea";
-import AddPrimaryBtn from "./AddPrimaryBtn";
+import "../../styles/root.css";
+import "../../styles/utility.css";
+import Layout from "../layout/Layout";
+import Header from "../header/Header";
+import TextArea from "../textarea/TextArea";
+import AddPrimaryBtn from "../buttons/AddPrimaryBtn";
 
 export default function VolunteerExperience() {
     return (

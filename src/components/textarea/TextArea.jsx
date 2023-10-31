@@ -1,6 +1,6 @@
-import "../styles/root.css";
-import "../styles/utility.css";
-import "../styles/TextArea.css";
+import "../../styles/root.css";
+import "../../styles/utility.css";
+import "./TextArea.css";
 
 export default function TextArea({ label, textLimit, id }) {
     return (
