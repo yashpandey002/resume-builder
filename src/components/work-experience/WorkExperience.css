@@ -1,0 +1,9 @@
+.workExperienceContentPointsContainer {
+    list-style: disc;
+    padding-left: 2.4rem;
+}
+
+.workExperienceContentSinglePoint {
+    font-size: 1.4rem;
+    font-weight: 400;
+}

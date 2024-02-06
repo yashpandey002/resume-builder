@@ -12,3 +12,7 @@
 .mainContent__box {
     gap: 3.2rem;
 }
+
+.mainContent__resultBox {
+    width: 100%;
+}

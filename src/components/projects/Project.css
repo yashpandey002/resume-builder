@@ -1,0 +1,19 @@
+.projectSingleHeader {
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+.projectSingleHeading {
+    font-size: inherit;
+}
+
+.projectSinglePointsContainer {
+    padding-left: 2.4rem;
+    list-style: disc;
+}
+
+.projectSinglePoint {
+    line-height: 150%;
+    font-size: 1.4rem;
+    font-weight: 400;
+}

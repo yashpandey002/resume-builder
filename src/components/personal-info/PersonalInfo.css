@@ -1,0 +1,27 @@
+/*********************/
+/* Content result styles */
+/*********************/
+.personalInfoContentWrapper {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.personalInfoContentNameBox {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.personalInfoContentName {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+}
+
+.personalInfoContentImpLinksContainer {
+    justify-content: space-between;
+}
+
+.personalInfoContentImpLink {
+    font-size: 1.2rem;
+    color: inherit;
+    font-weight: 700;
+}

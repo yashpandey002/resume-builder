@@ -2,7 +2,7 @@
     width: 150px;
 }
 
-.cgpaYearsBox {
+.cgpaYearBox {
     flex-grow: 1;
     background-color: #f1f1f1;
     border-radius: 5px;
@@ -15,4 +15,29 @@
     background-color: #f1f1f1;
     margin-left: 1.6rem;
     padding-right: 4rem;
+}
+
+.educationSingleHeader {
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+.educationSingleHeading {
+    font-size: inherit;
+}
+
+.educationSingleYear {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.educationSinglePointsContainer {
+    padding-left: 2.4rem;
+    list-style: disc;
+}
+
+.educationCGPA {
+    line-height: 150%;
+    font-size: 1.4rem;
+    font-weight: 400;
 }

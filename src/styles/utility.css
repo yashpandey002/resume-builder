@@ -37,3 +37,7 @@
 .flex-grow-1 {
     flex-grow: 1;
 }
+
+.grid {
+    display: grid;
+}

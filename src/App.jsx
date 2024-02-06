@@ -1,16 +1,16 @@
 import "./styles/root.css";
 import "./styles/utility.css";
 import "./styles/App.css";
-import PersonalInfo from "./components/personal-info/PersonalInfo";
-import ImpLinks from "./components/imp-links/ImpLinks";
-import Education from "./components/education/Education";
-import Projects from "./components/projects/Projects";
-import Skills from "./components/skills/Skills";
-import WorkExperience from "./components/work-experience/WorkExperience";
-import Achievements from "./components/achievements/Achievements";
-import VolunteerExperience from "./components/volunteer-experience/VolunteerExperience";
+import exampleData from "./exampleData";
+import ContentEditor from "./components/content-editor/ContentEditor";
+import ResumeResult from "./components/resume-result/ResumeResult";
+import { useState } from "react";
 
 function App() {
+    const [info, setInfo] = useState({
+        ...exampleData,
+    });
+
     return (
         <div className="App">
             <div className="mainWrapper">
@@ -19,16 +19,11 @@ function App() {
                 </div>
                 <div className="mainContent__box flex">
                     <div className="mainContent__editorBox flex flex-column flex-gap-lg">
-                        <PersonalInfo />
-                        <ImpLinks />
-                        <Education />
-                        <Projects />
-                        <Skills />
-                        <WorkExperience />
-                        <Achievements />
-                        <VolunteerExperience />
+                        <ContentEditor info={info} onInfoChange={setInfo} />
                     </div>
-                    <div className="mainContent__resultBox"></div>
+                    <div className="mainContent__resultBox">
+                        <ResumeResult info={info} />
+                    </div>
                 </div>
             </div>
         </div>
