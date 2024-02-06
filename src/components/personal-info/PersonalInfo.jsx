@@ -78,7 +78,7 @@ export default function PersonalInfo({ personalInfo, onPersonalInfoChange }) {
                             }}
                         />
                         <Input
-                            label={"Twitter"}
+                            label={"Twitter username"}
                             type={"text"}
                             id={"twitter"}
                             value={twitter}
