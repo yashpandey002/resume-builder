@@ -3,7 +3,8 @@ const exampleData = {
         fullName: "Yash pandey",
         email: "pandeyyash002@gmail.com",
         github: "yashpandey002",
-        linkedin: "in/pandeyyash",
+        linkedin: "pandeyyash",
+        linkedinCountryCode: "in",
         twitter: "pandeyyash_",
     },
     education: [

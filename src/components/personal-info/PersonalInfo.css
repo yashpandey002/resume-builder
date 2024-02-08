@@ -25,3 +25,17 @@
     color: inherit;
     font-weight: 700;
 }
+
+#linkdeinCountryCode {
+    width: 200px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 0 10px;
+    color: #a0a0a0;
+    border-right: 15px solid transparent;
+    border-radius: 5px;
+}
+
+#linkedin {
+    flex-grow: 1;
+}

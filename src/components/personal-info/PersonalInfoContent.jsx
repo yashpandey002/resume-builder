@@ -3,33 +3,52 @@ import "../../styles/utility.css";
 import "./PersonalInfo.css";
 
 export default function PersonalInfoContent({ info }) {
+    const personalInfo = info.personalInfo;
+
     return (
         <div className="personalInfoContentWrapper">
             <div className="personalInfoContentNameBox">
                 <h1 className="personalInfoContentName">
-                    {info.personalInfo.fullName}
+                    {personalInfo.fullName}
                 </h1>
             </div>
             <div className="personalInfoContentImpLinksBox">
                 <ul className="personalInfoContentImpLinksContainer flex">
                     <li>
-                        <a href="#" className="personalInfoContentImpLink">
-                            {info.personalInfo.email}
+                        <a
+                            href={`mailto:${personalInfo.email}`}
+                            className="personalInfoContentImpLink"
+                            target="_blanck"
+                        >
+                            {personalInfo.email}
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="personalInfoContentImpLink">
-                            github.com/{info.personalInfo.github}
+                        <a
+                            href={`https://www.github.com/${personalInfo.github}`}
+                            className="personalInfoContentImpLink"
+                            target="_blanck"
+                        >
+                            github.com/{personalInfo.github}
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="personalInfoContentImpLink">
-                            linkedin.com/{info.personalInfo.linkedin}
+                        <a
+                            href={`https://www.linkedin.com/${personalInfo.linkedinCountryCode}/${personalInfo.linkedin}`}
+                            className="personalInfoContentImpLink"
+                            target="_blanck"
+                        >
+                            linkedin.com/{personalInfo.linkedinCountryCode}/
+                            {personalInfo.linkedin}
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="personalInfoContentImpLink">
-                            twitter.com/{info.personalInfo.twitter}
+                        <a
+                            href={`https://www.twitter.com/${personalInfo.twitter}`}
+                            className="personalInfoContentImpLink"
+                            target="_blanck"
+                        >
+                            twitter.com/{personalInfo.twitter}
                         </a>
                     </li>
                 </ul>
